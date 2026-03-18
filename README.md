@@ -96,15 +96,6 @@ bash data3_10shot_process.sh
 
 Refer to [DINO_CDFSOD](https://github.com/Pumpkinder/CDFSOD.git)  .
 
-#### Ensemble
-
-Place the JSON files of the GLIP model and the DINO model into the `/GLIP_result`and `/DINO_result` folders, respectively. Run:
-
-```
-python ensemble.py
-```
-
-The final results will be saved in the `/ensemble_results` folder.
 
 ## Acknowledgement
 
