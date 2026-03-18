@@ -36,7 +36,7 @@ The **checkpoint** of the best fine-tuned model can be found here [Fine-tune mod
 
 ## 🔍 Inference & Evaluation
 
-We provide an automated inference script, `run_inference.sh`, which performs **Multi-Scale Test-Time Augmentation (MS-TTA)** at scales (640, 800, 1000) and fuses predictions using **Weighted Boxes Fusion (WBF)** at 0.55 IoU.
+We provide an automated inference script, `run_inference_multiscale.sh`, which performs **Multi-Scale Test-Time Augmentation (MS-TTA)** at scales (640, 800, 1000) and fuses predictions using **Weighted Boxes Fusion (WBF)** at 0.55 IoU.
 
 Run the following command to evaluate all datasets (1-shot, 5-shot, 10-shot):
 
